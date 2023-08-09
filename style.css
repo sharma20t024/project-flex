@@ -1,0 +1,241 @@
+.menu{
+    border: 3px solid black;
+    padding: 10px;
+    background-color: aliceblue;
+    display: flex;
+}
+.rightside{
+    display: flex;
+    flex-direction:row-reverse  ;
+    width: 70%;
+    margin-top: 30px;
+}
+.box:hover{
+    background-color: green;
+    color: maroon;
+    padding: 5px;
+}
+.box{
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+    height: 60px;
+    }
+.leftside img{
+    height: 100px;
+    width: 50%;
+    margin-left: 100px;
+}
+.leftside{
+    width: 20%;   
+}
+.mainbox{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    background: url(images/chip.jpg);
+}
+.subbox{
+    background-color: white;
+    text-align: center;
+    margin-left: 30px;
+    text-align: center;
+    border: 1px solid black;
+}
+.subbox h2{
+    background-color: darkgray;
+    color: darkslategrey;
+    margin-top: 0px;
+}
+.subbox h3{
+    background-color: darkgreen;
+    height:30px;
+    margin-bottom: 0px;
+}
+.mainbox2{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin-top: 20px;
+}
+.leftbox{
+    width: 40%; 
+    margin-left: 50px;
+}
+.rightbox{
+    width: 50%;
+    margin-left: 40px;
+}
+.rightbox h2{
+    margin-left: 120px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    background-color: black;
+    color: white;
+}
+.leftbox h2{
+    text-transform: capitalize;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+.leftbox h4{
+    border: 5px solid greenyellow;
+    color: green;
+    font-size: 14px;
+}
+.leftbox button{
+    background-color: black;
+    color: greenyellow;
+    padding: 5px;
+    margin-left: 140px;
+}
+.pic img{
+    width: 100%;
+    height: 500px;
+}
+.sub{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+.sub h3{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.sub p{
+    font-size: 17px;
+    padding: 0px;
+}
+span{
+    border: 2px solid greenyellow;
+    color: green;
+    background-color:tomato;
+    padding: 6px;
+    font-size: 14px;
+    padding-bottom: 3px;
+}
+.smallbox{
+    display: flex;
+}
+.box1{
+    width: 25%;
+    background-image: url(images/chip4.jpg);
+    background-position: center;
+    background-size: contain;
+    margin-left: 20px;
+    background-repeat: no-repeat;
+}
+.box1 img{
+    width: 100%;
+}
+.box2{
+    width: 75%;
+}
+.left-side h2 ,.right-side h2{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 30px;
+}
+.mainbox3{
+    display: flex;
+    width: 100%;
+    background-color: #d3d3d3b9;
+    padding: 0px 0px 40px 0px;
+}
+.leftside1{
+    width: 80%;
+    display: flex;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+.rightside1{
+    width: 80%;
+    display: flex;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+ .ls{
+    width: 50%;
+}
+.rs{
+    width: 50%;
+    border: 1px solid;
+    background-color: orange;
+    color: white;
+    height: 150px;
+}
+.ls{
+    width: 30% ;
+    background-image: url(images/chip6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid;
+    background-size: contain;
+    height: 150px;
+}
+.ls img{
+    width:100%;
+}
+.center h2{
+    text-transform: capitalize;
+    margin-left: 130px;
+}
+.center p{
+    margin-left: 60px;
+}
+.center{
+    background-color: lightgray;
+    padding-bottom: 10px;
+}
+.lastbox{
+    display: flex;
+    width: 100%;
+    background-color:hwb(0 0% 100% / 0.783);
+    color: lightgrey;
+    padding: 30px 0px 25px 0px;
+}
+.down1{
+    width: 40%;
+    margin-left: 80px;
+}
+.down2{
+    width: 20%;
+    margin-left: 90px;
+    margin-right: 50px;
+}
+.down3{
+    width: 20%;
+    margin-right: 70px; 
+    margin-left: 60px;
+}
+.down3 input{
+    margin-top: 5px;
+    padding: 6px;
+    background-color: black;
+}
+.down3 button{
+    margin-top: 8px;
+    padding: 5px;
+    background-color: green;
+    color: aliceblue;
+}
+.down3 .iconbar{
+    margin-top: 30px;
+}
+.down2 p{
+    color: green;
+}
+.down1 h4{
+    text-transform: uppercase;
+}
+.copyright{
+    background-color: black;
+    color: lightgrey;
+    padding: 10px;
+}
+.copyright h4{
+    margin-left: 60px;
+}
